@@ -1,5 +1,7 @@
 package com.danul.tubes_danul;
 
+import java.util.List;
+
 /**
  * Hello world!
  *
@@ -7,6 +9,10 @@ package com.danul.tubes_danul;
 public class MainApp {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+    	E e = new E();
+    	
+    	List list = e.getDataList();
+    	
     }
 }
