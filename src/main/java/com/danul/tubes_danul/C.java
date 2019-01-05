@@ -26,11 +26,6 @@ public class C {
 		return b.div(n1, n2);
 	}
 
-//	@Override
-//	public String toString() {
-//		return "C [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
-//	}
-
 	@Override
 	public String toString() {
 		return "C [n1=" + n1 + ", n2=" + n2 + ", add()=" + add() + ", sub()=" + sub() + ", mul()=" + mul() + ", div()="
